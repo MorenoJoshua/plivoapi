@@ -1,0 +1,4 @@
+<Response>
+    <Hangup schedule="19" reason="autovm" />
+    <Play>http://crdff.net/pbx/audios/autovms/felix-castle.mp3</Play>
+</Response>
