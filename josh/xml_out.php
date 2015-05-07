@@ -19,7 +19,7 @@ $r->addWait($wait);
 header('Content-type: text/xml');
 echo($r->toXML());
 
-//SQL
+/*//SQL
 // Saves all variables on a sql db, if a record with UUID exists, it is updated
 $fields = '`';
 $values = '\'';
@@ -35,4 +35,5 @@ $query = <<<MYSQL
 INSERT INTO crm.`plivo_test_out` ($fields) VALUES ($values) ON DUPLICATE KEY UPDATE $ifupdate;
 MYSQL;
 mysqli_query($conn, $query) or die(mysqli_error($conn));
+*/
 ?>
